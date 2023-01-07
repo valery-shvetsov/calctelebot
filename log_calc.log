@@ -1,0 +1,301 @@
+2022-12-30 23:12:11,024 - apscheduler.scheduler - INFO - Scheduler started
+2022-12-30 23:12:21,434 - log_calc - INFO - Аргумент А Валерий: 2
+2022-12-30 23:16:01,756 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2022-12-30 23:16:01,756 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2022-12-30 23:16:10,736 - apscheduler.scheduler - INFO - Scheduler started
+2022-12-30 23:16:19,574 - log_calc - INFO - Arg_A Валерий: 3
+2022-12-30 23:16:22,176 - log_calc - INFO - Arg_B Валерий: 6
+2022-12-30 23:19:36,904 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2022-12-30 23:19:36,905 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2022-12-30 23:19:50,557 - apscheduler.scheduler - INFO - Scheduler started
+2022-12-30 23:19:56,787 - log_calc - INFO - Arg_A Валерий: 3
+2022-12-30 23:20:02,113 - log_calc - INFO - Arg_B Валерий: 6
+2022-12-30 23:20:33,462 - log_calc - INFO - Arg_A Валерий: 3
+2022-12-30 23:20:34,897 - log_calc - INFO - Arg_B Валерий: 6
+2022-12-30 23:24:19,742 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2022-12-30 23:24:19,742 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2022-12-30 23:24:28,249 - telegram.ext.updater - WARNING - Exiting immediately!
+2022-12-30 23:24:31,921 - apscheduler.scheduler - INFO - Scheduler started
+2022-12-30 23:24:42,405 - log_calc - INFO - Arg_A S741v: 3
+2022-12-30 23:24:46,313 - log_calc - INFO - Arg_B S741v: 6
+2022-12-30 23:24:49,005 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\S9057\Desktop\PYTHON\Calc\.folder\lib\site-packages\telegram\ext\dispatcher.py", line 557, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\Users\S9057\Desktop\PYTHON\Calc\.folder\lib\site-packages\telegram\ext\conversationhandler.py", line 627, in handle_update
+    new_state = handler.handle_update(update, dispatcher, check_result, context)
+  File "C:\Users\S9057\Desktop\PYTHON\Calc\.folder\lib\site-packages\telegram\ext\handler.py", line 199, in handle_update
+    return self.callback(update, context)
+  File "c:\Users\S9057\Desktop\PYTHON\Calc\z_func.py", line 110, in input_action
+    logger.info("action %s: %s", user.username, update.message.text)
+NameError: name 'user' is not defined
+2022-12-30 23:26:01,438 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2022-12-30 23:26:01,439 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2022-12-30 23:26:15,212 - apscheduler.scheduler - INFO - Scheduler started
+2022-12-30 23:26:24,523 - log_calc - INFO - Arg_A S741v: 3
+2022-12-30 23:26:26,145 - log_calc - INFO - Arg_B S741v: 6
+2022-12-30 23:26:28,949 - log_calc - INFO - action S741v: a-b
+2022-12-30 23:29:51,243 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2022-12-30 23:29:51,243 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2022-12-30 23:30:03,445 - apscheduler.scheduler - INFO - Scheduler started
+2022-12-30 23:30:09,128 - log_calc - INFO - Arg_A S741v: 3
+2022-12-30 23:30:10,558 - log_calc - INFO - Arg_B 6: S741v
+2022-12-30 23:30:13,557 - log_calc - INFO - action a+b: S741v
+2022-12-30 23:30:13,770 - log_calc - INFO - action a+b: S741v
+2022-12-30 23:33:16,906 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2022-12-30 23:33:16,907 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2022-12-30 23:33:27,837 - apscheduler.scheduler - INFO - Scheduler started
+2022-12-30 23:33:33,285 - log_calc - INFO - Arg_A 3: S741v
+2022-12-30 23:33:34,389 - log_calc - INFO - Arg_B 6: S741v
+2022-12-30 23:33:37,818 - log_calc - INFO - action a+b: S741v
+2022-12-30 23:33:37,931 - log_calc - INFO - action <bound method Message.reply_text of <telegram.message.Message object at 0x0000020BDA0EA040>>: S741v
+2022-12-30 23:38:15,022 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2022-12-30 23:38:15,022 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2022-12-30 23:38:43,794 - apscheduler.scheduler - INFO - Scheduler started
+2022-12-30 23:38:48,402 - log_calc - INFO - Arg_A 3: S741v
+2022-12-30 23:38:49,830 - log_calc - INFO - Arg_B 6: S741v
+2022-12-30 23:38:52,416 - log_calc - INFO - action a+b: S741v
+2022-12-30 23:46:00,058 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2022-12-30 23:46:00,058 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2022-12-30 23:46:08,821 - apscheduler.scheduler - INFO - Scheduler started
+2022-12-30 23:46:19,616 - log_calc - INFO - Arg_A 3: S741v
+2022-12-30 23:46:21,189 - log_calc - INFO - Arg_B 6: S741v
+2022-12-30 23:46:23,906 - log_calc - INFO - action a+b: S741v
+2022-12-30 23:47:09,553 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2022-12-30 23:47:09,553 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2022-12-30 23:47:21,952 - apscheduler.scheduler - INFO - Scheduler started
+2022-12-30 23:47:28,679 - log_calc - INFO - Arg_A 3: S741v
+2022-12-30 23:47:29,844 - log_calc - INFO - Arg_B 6: S741v
+2022-12-30 23:47:32,356 - log_calc - INFO - action a+b: S741v
+2022-12-30 23:49:56,120 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2022-12-30 23:49:56,120 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2022-12-30 23:50:07,577 - apscheduler.scheduler - INFO - Scheduler started
+2022-12-30 23:50:14,072 - log_calc - INFO - Arg_A 3: S741v
+2022-12-30 23:50:15,453 - log_calc - INFO - Arg_B 6: S741v
+2022-12-30 23:50:18,429 - log_calc - INFO - action a+b: S741v
+2022-12-30 23:53:47,894 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2022-12-30 23:53:47,894 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2022-12-30 23:53:55,011 - apscheduler.scheduler - INFO - Scheduler started
+2022-12-30 23:54:00,583 - log_calc - INFO - Arg_A 3: S741v
+2022-12-30 23:54:01,901 - log_calc - INFO - Arg_B 6: S741v
+2022-12-30 23:54:04,458 - log_calc - INFO - action a+b: S741v
+2022-12-30 23:57:09,692 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2022-12-30 23:57:09,692 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2022-12-30 23:57:17,795 - apscheduler.scheduler - INFO - Scheduler started
+2022-12-30 23:57:27,740 - log_calc - INFO - Arg_A 3: S741v
+2022-12-30 23:57:28,919 - log_calc - INFO - Arg_B 6: S741v
+2022-12-30 23:57:31,220 - log_calc - INFO - action a+b: S741v
+2022-12-31 00:12:13,492 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2022-12-31 00:12:13,492 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2022-12-31 00:12:21,296 - apscheduler.scheduler - INFO - Scheduler started
+2022-12-31 00:12:26,535 - log_calc - INFO - Arg_A 3: S741v
+2022-12-31 00:12:27,560 - log_calc - INFO - Arg_B 6: S741v
+2022-12-31 00:12:30,492 - log_calc - INFO - action a+b: S741v
+2022-12-31 00:13:24,620 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2022-12-31 00:13:24,621 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2022-12-31 00:13:34,722 - apscheduler.scheduler - INFO - Scheduler started
+2022-12-31 00:13:39,175 - log_calc - INFO - Arg_A 3: S741v
+2022-12-31 00:13:40,293 - log_calc - INFO - Arg_B 6: S741v
+2022-12-31 00:13:42,619 - log_calc - INFO - action a+b: S741v
+2022-12-31 00:17:51,554 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2022-12-31 00:17:51,554 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2022-12-31 00:17:58,259 - apscheduler.scheduler - INFO - Scheduler started
+2022-12-31 00:18:03,700 - log_calc - INFO - Arg_A 3: S741v
+2022-12-31 00:18:04,822 - log_calc - INFO - Arg_B 6: S741v
+2022-12-31 00:18:08,061 - log_calc - INFO - action a+b: S741v
+2022-12-31 00:18:08,132 - log_calc - INFO - 3.0 + 6.0 = 9.0
+2022-12-31 00:19:45,775 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2022-12-31 00:19:45,776 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2022-12-31 00:19:53,499 - apscheduler.scheduler - INFO - Scheduler started
+2022-12-31 00:19:59,137 - log_calc - INFO - Arg_A 3: S741v
+2022-12-31 00:20:00,261 - log_calc - INFO - Arg_B 6: S741v
+2022-12-31 00:20:03,302 - log_calc - INFO - action a+b: S741v
+2022-12-31 00:24:18,093 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2022-12-31 00:24:18,094 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2022-12-31 00:24:24,580 - telegram.ext.updater - WARNING - Exiting immediately!
+2022-12-31 00:24:28,942 - apscheduler.scheduler - INFO - Scheduler started
+2022-12-31 00:24:33,682 - log_calc - INFO - Arg_A 3: S741v
+2022-12-31 00:24:34,877 - log_calc - INFO - Arg_B 6: S741v
+2022-12-31 00:24:37,166 - log_calc - INFO - action a+b: S741v
+2022-12-31 00:24:37,232 - log_calc - INFO - 3.0 + 6.0 = 9.0 S741v
+2022-12-31 00:28:58,434 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2022-12-31 00:28:58,434 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2022-12-31 00:29:11,788 - apscheduler.scheduler - INFO - Scheduler started
+2022-12-31 00:29:18,421 - log_calc - INFO - Arg_A 6: S741v
+2022-12-31 00:29:20,258 - log_calc - INFO - Arg_B 3: S741v
+2022-12-31 00:29:22,474 - log_calc - INFO - action a**b: S741v
+2022-12-31 00:29:22,540 - log_calc - INFO - 6.0 ** 3.0 = 216.0 S741v
+2022-12-31 00:30:39,408 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2022-12-31 00:30:39,409 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2023-01-05 21:00:31,370 - apscheduler.scheduler - INFO - Scheduler started
+2023-01-05 21:01:12,065 - log_calc - INFO - Arg_A 6: S741v
+2023-01-05 21:01:15,809 - log_calc - INFO - Arg_B 3: S741v
+2023-01-05 21:01:18,504 - log_calc - INFO - action a-b: S741v
+2023-01-05 21:01:18,625 - log_calc - INFO - 6.0 - 3.0 = 3.0 S741v
+2023-01-05 21:01:27,825 - log_calc - INFO - Arg_A 3: S741v
+2023-01-05 21:01:29,933 - log_calc - INFO - Arg_B 6: S741v
+2023-01-05 22:09:00,234 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2023-01-05 22:09:00,234 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2023-01-05 22:09:15,214 - apscheduler.scheduler - INFO - Scheduler started
+2023-01-05 22:09:25,960 - log_calc - INFO - Arg_A 6: S741v
+2023-01-05 22:09:28,443 - log_calc - INFO - Arg_B 3: S741v
+2023-01-05 22:09:28,445 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\S9057\Desktop\PYTHON\Calc\.folder\lib\site-packages\telegram\ext\dispatcher.py", line 557, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\Users\S9057\Desktop\PYTHON\Calc\.folder\lib\site-packages\telegram\ext\conversationhandler.py", line 627, in handle_update
+    new_state = handler.handle_update(update, dispatcher, check_result, context)
+  File "C:\Users\S9057\Desktop\PYTHON\Calc\.folder\lib\site-packages\telegram\ext\handler.py", line 199, in handle_update
+    return self.callback(update, context)
+  File "c:\Users\S9057\Desktop\PYTHON\Calc\z_func.py", line 71, in input_b
+    markup_key = ReplyKeyboardMarkup(resize_keyboard=False, one_time_keyboard=True)
+TypeError: ReplyKeyboardMarkup.__init__() missing 1 required positional argument: 'keyboard'
+2023-01-05 22:09:37,048 - log_calc - INFO - Arg_B 3: S741v
+2023-01-05 22:09:37,049 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\S9057\Desktop\PYTHON\Calc\.folder\lib\site-packages\telegram\ext\dispatcher.py", line 557, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\Users\S9057\Desktop\PYTHON\Calc\.folder\lib\site-packages\telegram\ext\conversationhandler.py", line 627, in handle_update
+    new_state = handler.handle_update(update, dispatcher, check_result, context)
+  File "C:\Users\S9057\Desktop\PYTHON\Calc\.folder\lib\site-packages\telegram\ext\handler.py", line 199, in handle_update
+    return self.callback(update, context)
+  File "c:\Users\S9057\Desktop\PYTHON\Calc\z_func.py", line 71, in input_b
+    markup_key = ReplyKeyboardMarkup(resize_keyboard=False, one_time_keyboard=True)
+TypeError: ReplyKeyboardMarkup.__init__() missing 1 required positional argument: 'keyboard'
+2023-01-05 22:09:43,640 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2023-01-05 22:09:43,641 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2023-01-05 22:18:04,784 - apscheduler.scheduler - INFO - Scheduler started
+2023-01-05 22:18:14,287 - log_calc - INFO - Arg_A 3: S741v
+2023-01-05 22:18:16,013 - log_calc - INFO - Arg_B 6: S741v
+2023-01-05 22:18:16,014 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\S9057\Desktop\PYTHON\Calc\.folder\lib\site-packages\telegram\ext\dispatcher.py", line 557, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\Users\S9057\Desktop\PYTHON\Calc\.folder\lib\site-packages\telegram\ext\conversationhandler.py", line 627, in handle_update
+    new_state = handler.handle_update(update, dispatcher, check_result, context)
+  File "C:\Users\S9057\Desktop\PYTHON\Calc\.folder\lib\site-packages\telegram\ext\handler.py", line 199, in handle_update
+    return self.callback(update, context)
+  File "c:\Users\S9057\Desktop\PYTHON\Calc\z_func.py", line 71, in input_b
+    markup_key = ReplyKeyboardMarkup(resize_keyboard=True, one_time_keyboard=True)
+TypeError: ReplyKeyboardMarkup.__init__() missing 1 required positional argument: 'keyboard'
+2023-01-05 22:24:32,099 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2023-01-05 22:24:32,099 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2023-01-05 22:24:42,085 - apscheduler.scheduler - INFO - Scheduler started
+2023-01-05 22:24:47,886 - log_calc - INFO - Arg_A 3: S741v
+2023-01-05 22:24:49,528 - log_calc - INFO - Arg_B 6: S741v
+2023-01-05 22:24:49,529 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\S9057\Desktop\PYTHON\Calc\.folder\lib\site-packages\telegram\ext\dispatcher.py", line 557, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\Users\S9057\Desktop\PYTHON\Calc\.folder\lib\site-packages\telegram\ext\conversationhandler.py", line 627, in handle_update
+    new_state = handler.handle_update(update, dispatcher, check_result, context)
+  File "C:\Users\S9057\Desktop\PYTHON\Calc\.folder\lib\site-packages\telegram\ext\handler.py", line 199, in handle_update
+    return self.callback(update, context)
+  File "c:\Users\S9057\Desktop\PYTHON\Calc\z_func.py", line 71, in input_b
+    markup_key = ReplyKeyboardMarkup(resize_keyboard=True, one_time_keyboard=True)
+TypeError: ReplyKeyboardMarkup.__init__() missing 1 required positional argument: 'keyboard'
+2023-01-05 22:25:28,569 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2023-01-05 22:25:28,570 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2023-01-05 22:25:33,572 - apscheduler.scheduler - INFO - Scheduler started
+2023-01-05 22:25:40,744 - log_calc - INFO - Arg_A 3: S741v
+2023-01-05 22:25:41,857 - log_calc - INFO - Arg_B 6: S741v
+2023-01-05 22:25:41,858 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\S9057\Desktop\PYTHON\Calc\.folder\lib\site-packages\telegram\ext\dispatcher.py", line 557, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\Users\S9057\Desktop\PYTHON\Calc\.folder\lib\site-packages\telegram\ext\conversationhandler.py", line 627, in handle_update
+    new_state = handler.handle_update(update, dispatcher, check_result, context)
+  File "C:\Users\S9057\Desktop\PYTHON\Calc\.folder\lib\site-packages\telegram\ext\handler.py", line 199, in handle_update
+    return self.callback(update, context)
+  File "c:\Users\S9057\Desktop\PYTHON\Calc\z_func.py", line 82, in input_b
+    markup_key=ReplyKeyboardMarkup(resize_keyboard=True, one_time_keyboard=True).row(
+TypeError: ReplyKeyboardMarkup.__init__() missing 1 required positional argument: 'keyboard'
+2023-01-05 22:27:33,121 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2023-01-05 22:27:33,122 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2023-01-05 22:28:28,815 - apscheduler.scheduler - INFO - Scheduler started
+2023-01-05 22:28:35,898 - log_calc - INFO - Arg_A 3: S741v
+2023-01-05 22:28:37,352 - log_calc - INFO - Arg_B 6: S741v
+2023-01-05 22:28:37,354 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\S9057\Desktop\PYTHON\Calc\.folder\lib\site-packages\telegram\ext\dispatcher.py", line 557, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\Users\S9057\Desktop\PYTHON\Calc\.folder\lib\site-packages\telegram\ext\conversationhandler.py", line 627, in handle_update
+    new_state = handler.handle_update(update, dispatcher, check_result, context)
+  File "C:\Users\S9057\Desktop\PYTHON\Calc\.folder\lib\site-packages\telegram\ext\handler.py", line 199, in handle_update
+    return self.callback(update, context)
+  File "c:\Users\S9057\Desktop\PYTHON\Calc\z_func.py", line 82, in input_b
+    markup_key=ReplyKeyboardMarkup().row(
+TypeError: ReplyKeyboardMarkup.__init__() missing 1 required positional argument: 'keyboard'
+2023-01-05 22:52:42,654 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2023-01-05 22:52:42,655 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2023-01-05 22:52:49,244 - apscheduler.scheduler - INFO - Scheduler started
+2023-01-05 22:52:57,155 - log_calc - INFO - Arg_A 3: S741v
+2023-01-05 22:52:58,456 - log_calc - INFO - Arg_B 6: S741v
+2023-01-05 22:52:58,457 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\S9057\Desktop\PYTHON\Calc\.folder\lib\site-packages\telegram\ext\dispatcher.py", line 557, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\Users\S9057\Desktop\PYTHON\Calc\.folder\lib\site-packages\telegram\ext\conversationhandler.py", line 627, in handle_update
+    new_state = handler.handle_update(update, dispatcher, check_result, context)
+  File "C:\Users\S9057\Desktop\PYTHON\Calc\.folder\lib\site-packages\telegram\ext\handler.py", line 199, in handle_update
+    return self.callback(update, context)
+  File "c:\Users\S9057\Desktop\PYTHON\Calc\z_func.py", line 72, in input_b
+    markup_key = ReplyKeyboardMarkup(resize_keyboard=True, one_time_keyboard=True)
+TypeError: ReplyKeyboardMarkup.__init__() missing 1 required positional argument: 'keyboard'
+2023-01-05 22:57:04,732 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2023-01-05 22:57:04,732 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2023-01-05 22:57:12,982 - apscheduler.scheduler - INFO - Scheduler started
+2023-01-05 22:57:20,759 - log_calc - INFO - Arg_A 3: S741v
+2023-01-05 22:57:21,951 - log_calc - INFO - Arg_B 6: S741v
+2023-01-05 22:57:21,953 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\S9057\Desktop\PYTHON\Calc\.folder\lib\site-packages\telegram\ext\dispatcher.py", line 557, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\Users\S9057\Desktop\PYTHON\Calc\.folder\lib\site-packages\telegram\ext\conversationhandler.py", line 627, in handle_update
+    new_state = handler.handle_update(update, dispatcher, check_result, context)
+  File "C:\Users\S9057\Desktop\PYTHON\Calc\.folder\lib\site-packages\telegram\ext\handler.py", line 199, in handle_update
+    return self.callback(update, context)
+  File "c:\Users\S9057\Desktop\PYTHON\Calc\z_func.py", line 72, in input_b
+    markup_key = ReplyKeyboardMarkup(resize_keyboard=True, one_time_keyboard=True)
+TypeError: ReplyKeyboardMarkup.__init__() missing 1 required positional argument: 'keyboard'
+2023-01-05 23:16:19,043 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2023-01-05 23:16:19,043 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2023-01-05 23:16:30,814 - apscheduler.scheduler - INFO - Scheduler started
+2023-01-05 23:16:35,555 - log_calc - INFO - Arg_A 3: S741v
+2023-01-05 23:16:36,339 - log_calc - INFO - Arg_B 6: S741v
+2023-01-05 23:16:36,343 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\S9057\Desktop\PYTHON\Calc\.folder\lib\site-packages\telegram\ext\dispatcher.py", line 557, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\Users\S9057\Desktop\PYTHON\Calc\.folder\lib\site-packages\telegram\ext\conversationhandler.py", line 627, in handle_update
+    new_state = handler.handle_update(update, dispatcher, check_result, context)
+  File "C:\Users\S9057\Desktop\PYTHON\Calc\.folder\lib\site-packages\telegram\ext\handler.py", line 199, in handle_update
+    return self.callback(update, context)
+  File "c:\Users\S9057\Desktop\PYTHON\Calc\z_func.py", line 74, in input_b
+    markup_key = ReplyKeyboardMarkup(resize_keyboard=True, one_time_keyboard=True).row(button1, button2)
+TypeError: ReplyKeyboardMarkup.__init__() missing 1 required positional argument: 'keyboard'
+2023-01-05 23:25:40,862 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2023-01-05 23:25:40,862 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2023-01-05 23:25:52,228 - apscheduler.scheduler - INFO - Scheduler started
+2023-01-05 23:25:58,119 - log_calc - INFO - Arg_A 4: S741v
+2023-01-05 23:26:00,230 - log_calc - INFO - Arg_B 6: S741v
+2023-01-05 23:26:04,247 - log_calc - INFO - action a+b: S741v
+2023-01-05 23:26:04,316 - log_calc - INFO - 4.0 + 6.0 = 10.0 S741v
+2023-01-05 23:26:18,428 - log_calc - INFO - Arg_A 4: S741v
+2023-01-05 23:26:19,853 - log_calc - INFO - Arg_B 8: S741v
+2023-01-05 23:26:29,696 - log_calc - INFO - action a**b: S741v
+2023-01-05 23:26:29,765 - log_calc - INFO - 4.0 ** 8.0 = 65536.0 S741v
+2023-01-05 23:40:16,536 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2023-01-05 23:40:16,536 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2023-01-05 23:40:32,076 - apscheduler.scheduler - INFO - Scheduler started
+2023-01-05 23:40:41,018 - log_calc - INFO - Arg_A 3: S741v
+2023-01-05 23:40:42,151 - log_calc - INFO - Arg_B 6: S741v
+2023-01-05 23:40:45,123 - log_calc - INFO - action a+b: S741v
+2023-01-05 23:40:45,234 - log_calc - INFO - 3.0 + 6.0 = 9.0 S741v
+2023-01-05 23:47:37,787 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2023-01-05 23:47:37,788 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2023-01-05 23:47:52,520 - apscheduler.scheduler - INFO - Scheduler started
+2023-01-05 23:47:59,074 - log_calc - INFO - Arg_A 3: S741v
+2023-01-05 23:48:00,457 - log_calc - INFO - Arg_B 6: S741v
+2023-01-05 23:48:03,271 - log_calc - INFO - action a+b: S741v
+2023-01-05 23:48:03,352 - log_calc - INFO - 3.0 + 6.0 = 9.0 S741v
